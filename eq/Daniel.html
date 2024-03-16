@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../estilo.css">
+
+    <style>
+        ul {
+          list-style-type: none;/*desactiva viñetas*/
+          margin: 0;
+          padding: 0;
+          overflow: hidden; /*Especifica qué sucede si el contenido
+          del cuadro de un elemento se desborda */
+      }
+      
+      li {
+          float: left;
+      }
+      
+      li a {
+          display: block;
+          color: rgb(0, 0, 0);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+      
+      li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+          background-color: #02075f;
+          color: rgb(255, 255, 255);
+      }
+      
+      li a:active { /*Cuando da click en el mouse */
+          background-color: #609acf;
+          font-size: 120%;
+      }
+      
+      </style>
+</head>
+
+<div id="primero">
+    <header id="cabecera">
+        <h1>Mi blog</h1>
+    </header>
+  
+    <nav id="menu">
+      <ul> 
+        <li><a href="../index.html">Principal</a></li>
+        <li><a href="gene.html">Genesaret Guitierrez Barranco</a></li>
+        <li><a href="Juan.html" ">Juan Pablo Andrade Cruz</a></li>
+        <li><a href="David.html">David Alcocer Angel</a></li>
+        <li><a href="Daniel.html">Daniel Oswaldo Hernandez Alatorre</a></li>
+        <li><a href="Evidencia.html">Evidencia</a></li>
+
+      </ul>
+      </nav>
+  <div class="container">
+        <section id="seccion">
+          <article><!--Primer articulo-->
+            <header>
+                  <hgroup>
+                      <h1 id="principal">Daniel Oswaldo Hernandez Alatorre</h1>
+                  </hgroup>
+                  <time datetime="2024-03-24" pubdate>
+                        Publicado 24-03-24
+                  </time>
+            </header>
+            <center>
+              <p aling="center"> Me llamo Daniel Oswaldo Hernandez Alatorre, me gustan los videojuegos, la musica electronica y el yakult.
+                <br>
+              <figure>
+                    <figcaption>
+                      <video width="200" height="300" controls>
+                        <source src="../ImgVid/Daniel (1).mp4" type="video/mp4">
+                      </video>
+                      <p id="cancion">Cancion favorita</p>
+                      <br>
+                      <audio controls> <source src="../ImgVid/Daniel musica.mp3" type="audio/mp3"></audio>
+                    </figcaption>
+              </figure>
+            </center>
+          </article>
+      </section>
+      <aside id="columna"> <!-- aside -->
+          <blockquote>Contactanos.</blockquote>
+          
+          <a href="https://www.facebook.com/oswaldo.alatorre.58?mibextid=ZbWKwL">
+          <figure>
+            <img src="../ImgVid/face.webp" alt="facebook" width="70" height="70">
+            <br><a href="https://www.facebook.com/oswaldo.alatorre.58?mibextid=ZbWKwL">Daniel Oswaldo</a>
+          </figure>
+        </a>
+    <br>
+            <a href="https://www.instagram.com/dh.alatorre?igsh=cmx1bmExNTR2emVw">
+            <figure>
+              <img src="../ImgVid/Insta.webp" alt="instagram" width="70" height="70">
+              <br><a href="https://www.instagram.com/dh.alatorre?igsh=cmx1bmExNTR2emVw">Daniel Oswaldo</a>
+            </figure>
+          </a>
+      </aside>
+  </div>
+</body>    
+</html>

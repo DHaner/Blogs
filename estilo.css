@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: verdana, sans-serif;
+    }
+
+h3, p{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+    
+h1 { /* Titulo blog y los nombres de cada integrante */
+    font: bold 30px verdana, sans-serif;
+    } 
+#cancion{
+    text-align: center;
+}    
+#cabecera {
+    background: #2d21a9;
+    border: 2px solid #03011f;
+    padding: 20px;
+    }
+
+ #menu {
+    background: #5c52ce;
+    padding: 5px 15px;
+    }
+    
+#menu li { /*estilo manu*/
+    display: inline-block;
+    list-style: none; 
+    padding: 5px;
+    font-size: 20px;
+    font: verdana, sans-serif;
+    }
+    
+#seccio{ /*contenedor principal y evidencias */
+    float: left;
+    width: 1440px;
+    height: 100%;
+    margin: 20px;
+    }
+
+#seccion { /* Contenedor integrante */
+    float: left;
+    width: 1170px;
+    height: 100%;
+    margin: 20px;
+    }
+        
+#columna {
+    float: left;
+    width: 220px;
+    height: 500PX;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #9e98db;
+    border: 2px solid #03011f;      
+}    
+        /*Agregando los últimos toques a nuestro diseño básico.*/
+article {
+    background: #8077e7;
+    border: 2px solid #0c0749;;
+    padding: 20px;
+    margin-bottom: 15px;
+    height: 500px;
+    }      
+
+time {
+    color: #bcb3b3;
+    font-size: 20px;
+    font: verdana, sans-serif;
+    }
+        
